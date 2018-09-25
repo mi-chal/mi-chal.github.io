@@ -1,0 +1,50 @@
+.movie{
+  background: rgb(255, 255, 255);
+  width: 700px;
+  margin: 50px auto;
+  border-radius: 3px;
+  border-spacing: 25px 15px;
+  text-align: center;
+  padding: 20px;
+  color:rgb(148, 144, 151)
+}
+
+.movie__input {
+  display: block;
+  width: 300px;
+  height: 20px;
+  margin: 10px auto;
+}
+
+.movie__input--description {
+  height: 70px;
+}
+
+.movie__button {
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  padding: 7px;
+  font-weight: bold;
+  font-family: "Ubuntu", "Verdana", "Sans-serif";
+  cursor: pointer;
+}
+
+.movie__button--submit {
+  background: #88BBD6;
+  width: 150px;
+  font-size: 16px;
+  margin: 50px auto 5px;
+  display: block;
+}
+
+.movie__error {
+  border-color: red;
+}
+
+.movie__error-message {
+  color: red;
+  margin-top: 0px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}

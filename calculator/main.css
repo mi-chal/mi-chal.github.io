@@ -1,0 +1,61 @@
+body {
+  font-family: "Verdana", "Times New Roman", "Sans-serif";
+}
+
+table {
+  margin: 200px auto 0;
+  text-align: center;
+  border-radius: 4px;
+  border-spacing: 10px;
+  background: #eee;
+  padding: 10px;
+  font-size: 30px;
+}
+
+button {
+  background: rgb(20, 165, 175);
+  color: white;
+  font-weight: bold;
+  padding: 10px auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: 0 3px rgb(192, 191, 191);
+  text-align: center;
+  font-size: 30px;
+}
+
+button:hover {
+  background: pink;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.display {
+  background: white;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+  box-shadow: inset 0 3px rgb(192, 191, 191);
+  border-radius: 5px;
+  pointer-events: none;
+}
+.clear {
+  background: rgb(180, 65, 132);
+}
+
+.operators {
+  background: rgb(61, 95, 134);
+}
+
+.equals {
+  background: rgb(68, 153, 60);
+}

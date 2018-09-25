@@ -1,0 +1,53 @@
+.list {
+  background: rgb(255, 255, 255);
+  width: 900px;
+  margin: 50px auto;
+  border-radius: 3px;
+  border-spacing: 10px 20px;
+  text-align: center;
+  padding: 50px;
+}
+
+.list__thead {
+  font-size: 24px;
+  font-weight: bold;
+  color: #04557E;
+  border-collapse: collapse;
+}
+
+.list__tbody {
+  color:rgb(59, 59, 59)
+}
+
+.list__button {
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  padding: 7px;
+  font-family: "Ubuntu", "Verdana", "Sans-serif";
+  cursor: pointer;
+}
+
+.list__button--add {
+  background: rgb(140, 113, 155);
+  width: 170px;
+  font-size: 16px;
+  margin: 50px auto;
+  display: block;
+}
+
+.list__button--details {
+  background: #99D3DF;
+  font-size: 12px;
+}
+
+.list__button--delete {
+  background: #0087CD;
+  font-size: 12px;
+}
+
+.list__picture {
+  height: 100px;
+  border-radius: 3px;
+}

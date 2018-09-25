@@ -1,0 +1,37 @@
+body {
+  font-family: "Ubuntu", "Verdana", "Sans-serif";
+  background: rgb(245, 244, 244);
+}
+
+th {
+  padding: 10px 10px 30px 10px;
+}
+
+td {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 30px;
+  color: #04557E;
+  padding-bottom: 20px;
+}
+
+.movie__button {
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  padding: 7px;
+  font-weight: bold;
+  font-family: "Ubuntu", "Verdana", "Sans-serif";
+  cursor: pointer;
+}
+
+.movie__button--goback {
+  background: #99D3DF;
+  width: 150px;
+  font-size: 16px;
+  margin: 10px auto 20px;
+  display: block;
+}

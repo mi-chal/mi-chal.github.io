@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Add Movie Screen</title>
+  <link rel="stylesheet" href="../../styles/reset.css" type="text/css">
+  <link rel="stylesheet" href="../../styles/main-style.css" type="text/css">
+  <link rel="stylesheet" href="add-movie-style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <script type="text/javascript" src="http://livejs.com/live.js"></script>
+</head>
+<body>
+  <form
+   class="movie"
+   id="movie-inputs"
+  >
+    <h1>Add movie</h1>
+    <div>
+     <label for ="image-src">Image link:</label>
+     <input
+      type="text"
+      class="movie__input"
+      id="image-src"
+     >
+    </div>
+    <div>
+      <label for ="title">Title:</label>
+      <input
+       type="text"
+       class="movie__input"
+       id="title"
+      >
+    </div>
+    <div>
+      <label for ="genre">Genre:</label>
+      <input
+       list="genres"
+       class="movie__input"
+       id="genre"
+      >
+        <datalist id="genres">
+          <option value="Action">
+          <option value="Comedy">
+          <option value="Drama">
+          <option value="Thriller">
+        </datalist>
+    </div>
+    <div>
+      <label for ="year">Year</label>
+      <input
+       type="number"
+       class="movie__input"
+       id="year"
+      >
+    </div>
+    <div>
+      <label for ="mark">Mark:</label>
+      <input
+       type="text"
+       class="movie__input"
+       id="mark"
+      >
+    </div>
+    <div>
+      <label for ="description">Description:</label>
+      <textarea
+       name="description"
+       class="movie__input movie__input--description"
+       id="description"
+      >
+      </textarea>
+    </div>
+      <input
+       type="submit"
+       class="movie__button movie__button--submit"
+       id="add-button"
+      />
+      <button
+      type="button"
+      class="movie__button movie__button--goback"
+      id="go-back"
+      >Back to movies
+      </button>
+  </form>
+  <script type="text/javascript" src="../../utils/ValidationRules.js"></script>
+  <script type="text/javascript" src="ValidationModule.js"></script>
+  <script type="text/javascript" src="../../utils/MoviesModule.js"></script>
+  <script type="text/javascript" src="add-movie-script.js"></script>    
+</body>
+</html>

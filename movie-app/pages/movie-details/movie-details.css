@@ -1,0 +1,14 @@
+.list {
+  background: rgb(255, 255, 255);
+  color: #2d3352;
+  width: 900px;
+  margin: 50px auto;
+  border-radius: 3px;
+  border-spacing: 10px 20px;
+  text-align: center;
+  padding: 50px;
+}
+
+.list__image {
+  display: inline;
+}

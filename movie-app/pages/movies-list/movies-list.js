@@ -1,0 +1,2 @@
+MoviesModule.goToAddNewMoviePage();
+MoviesModule.displayTable();
