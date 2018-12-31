@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "static/media/grocery-list.090a5c6d.jpeg"
   },
   {
-    revision: '9e9faf9bfb78f0bb04646404cad27735',
-    url: 'https://mi-chal.github.io/appetite/static/media/cook-book.9e9faf9b.jpeg',
+    "revision": "9e9faf9bfb78f0bb04646404cad27735",
+    "url": "static/media/cook-book.9e9faf9b.jpeg"
   },
   {
     "revision": "229c360febb4351a89df",
