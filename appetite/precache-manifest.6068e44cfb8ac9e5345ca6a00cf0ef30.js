@@ -13,7 +13,7 @@ self.__precacheManifest = [
   },
   {
     revision: '9e9faf9bfb78f0bb04646404cad27735',
-    url: 'static/media/cook-book.9e9faf9b.jpeg',
+    url: 'https://mi-chal.github.io/static/media/cook-book.9e9faf9b.jpeg',
   },
   {
     "revision": "229c360febb4351a89df",
