@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
     "revision": "87d88a1e4c2f3e7f2fb8054169f3cdc1",
-    "url": "/appetite/static/media/timer.87d88a1e.jpeg"
+    "url": "/static/media/timer.87d88a1e.jpeg"
   },
   {
     "revision": "6724ffb23a727dc7afab23cbcfed2e1c",
-    "url": "/appetite/static/media/meal-plan.6724ffb2.jpeg"
+    "url": "/static/media/meal-plan.6724ffb2.jpeg"
   },
   {
     "revision": "090a5c6dc2cb26026fbee346bad67607",
-    "url": "/appetite/static/media/grocery-list.090a5c6d.jpeg"
+    "url": "/static/media/grocery-list.090a5c6d.jpeg"
   },
   {
     "revision": "9e9faf9bfb78f0bb04646404cad27735",
-    "url": "/appetite/static/media/cook-book.9e9faf9b.jpeg"
+    "url": "/static/media/cook-book.9e9faf9b.jpeg"
   },
   {
     "revision": "229c360febb4351a89df",
